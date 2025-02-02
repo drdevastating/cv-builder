@@ -1,0 +1,63 @@
+/* General container styling */
+.general-info {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Section heading */
+  .general-info h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Form styling */
+  .general-info form {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+  
+  /* Label styling */
+  .general-info label {
+    font-size: 1rem;
+    color: #555;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  /* Input styling */
+  .general-info input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .general-info input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Spacing between form fields */
+  .general-info form label + label {
+    margin-top: 10px;
+  }
+  
+  /* Add some spacing around inputs */
+  .general-info input::placeholder {
+    color: #aaa;
+    font-style: italic;
+  }
+  
