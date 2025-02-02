@@ -2,20 +2,7 @@ body{
   width: 100%;
   height: 100%;
 }
-.app-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.title {
-  text-align: center;
-  font-size: 2.5rem;
-  color: #333;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-family: Arial, sans-serif;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
-}
+
 
 .app-container {
   display: flex;
